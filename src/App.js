@@ -31,7 +31,7 @@ function App() {
             />
             <div className="slider round"></div>
           </label>
-          <em>Enable Dark Mode!</em>
+          <em>{!darkMode ? "Enable" : "Disable"} Dark Mode!</em>
         </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
